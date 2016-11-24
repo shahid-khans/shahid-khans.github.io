@@ -30,7 +30,7 @@ address:
 postcode: 0000000
 city: Bengaluru
 country: India
-google_analytics: AAAAA
+google_analytics: UA-87985998-1
 
 # needed for travis-ci build
 exclude: [vendor]
