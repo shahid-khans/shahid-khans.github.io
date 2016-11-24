@@ -1,0 +1,37 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://biomadeira.github.io/vitae
+author: Shahid Khan
+
+
+baseurl: ""
+
+title: Shahid Khan's Resume
+name: Shahid
+email: shahid.khans@outlook.com
+email_full: mailto:shahid.khans@outlook.com
+website: github.io/sustain
+website_full: https://biomadeira.github.io/sustain
+github: shahid-khans
+linkedin: shahid-khan
+twitter: ishahidkhans
+facebook: sidkhans
+tel: +00 0000 000000
+tel_full: tel:+000000000000
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address: 
+postcode: 0000000
+city: Bengaluru
+country: India
+google_analytics: UA-87985998-1
+
+# needed for travis-ci build
+exclude: [vendor]
+

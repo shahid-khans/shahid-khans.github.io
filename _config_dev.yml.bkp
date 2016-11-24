@@ -1,0 +1,35 @@
+# Site settings
+title: Shahid Khan
+email: shahid.khans@outlook.com
+description: Professional Summary
+baseurl: ""
+url: "http://localhost:2610" 
+
+relative_permalinks: false
+permalink: /:title/
+paginate: 8
+paginate_path: "/page:num"
+
+github_username: shahid-khans
+twitter_username: ishahidkhans
+
+# Build settings
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Exclude files and folder
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - bower.json
+  - bower_components
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
