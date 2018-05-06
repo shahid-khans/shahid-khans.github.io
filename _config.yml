@@ -7,20 +7,20 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://biomadeira.github.io/vitae
+url: http://www.shahidkhans.com
 author: Shahid Khan
 
 
-baseurl: ""
+baseurl: www.shahidkhans.com
 
 title: Shahid Khan's Resume
-name: Shahid
+name: shahid
 email: shahid.khans@outlook.com
 email_full: mailto:shahid.khans@outlook.com
-website: github.io/sustain
-website_full: https://biomadeira.github.io/sustain
+website: http://www.shahidkhans.com
+website_full: http://www.shahidkhans.com
 github: shahid-khans
-linkedin: shahid-khan
+linkedin: shahidkhans
 twitter: ishahidkhans
 facebook: sidkhans
 tel: +00 0000 000000
