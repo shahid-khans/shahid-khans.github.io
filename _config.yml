@@ -1,7 +1,6 @@
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+highlighter: rouge
+markdown: kramdown
+
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
@@ -9,7 +8,6 @@ port: 4000
 safe: true
 url: http://www.shahidkhans.com
 author: Shahid Khan
-
 
 baseurl: ""
 
